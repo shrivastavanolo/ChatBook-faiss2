@@ -15,9 +15,6 @@ from langchain.agents import ZeroShotAgent, Tool, AgentExecutor
 from langchain.memory import ConversationBufferMemory
 from langchain.memory.chat_message_histories import RedisChatMessageHistory
 from langchain import OpenAI, LLMChain
-import os
-
-os.environ["OPENAI_API_KEY"]="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"
 
 with st.sidebar:
     st.title("ChattyPDF")
