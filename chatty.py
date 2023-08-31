@@ -70,7 +70,7 @@ def main():
         description="useful for when you need to answer questions about user given PDF file. Input should be a fully formed question.",
         ),]
 
-        prefix = """Have a conversation with a human, answering the following questions as best you can. You have access to the following tools:"""
+        prefix = """Have a conversation with a human, answering the following questions as best you can. Start your answer with 'Hello, ' You have access to the following tools:"""
         suffix = """Begin!"
 
         {chat_history}
